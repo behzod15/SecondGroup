@@ -4,3 +4,68 @@
     padding: 0;
     font-family: 'Poppins', sans-serif
 }
+.NAcontain{
+    margin-top: 90px;
+    width: 100%;
+   background-color: #4B321D;
+   border-radius: 10px;
+   padding: 60px;
+}
+.NAlorem{
+    width: 90%;
+    margin: auto;
+}
+.NAdolo{
+    width: 80%;
+    font-size: 80px;
+    color: #F1F1EB;
+}
+.NAful{
+    padding-top: 30px;
+    font-size: 26px;
+    color: #F1F1EB;
+}
+.NAseem p{
+    font-size: 70px;
+    padding-top: 50px;
+    color: #4B321D;
+}
+.NAbut{
+    padding-top: 30px;
+
+}
+.NAbut button {
+    padding: 10px 17px;
+    background: transparent;
+    border: 2px solid #4B321D;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.NAbut button:hover{
+    background-color: gray;
+    transition: 0.7s ease;
+    color: aqua;
+}
+.NAfoot{
+    padding-top: 170px;
+}
+.NAtri{
+    padding-top: 70px;
+}
+.NAfoot{
+    display: flex;
+    justify-content: space-between;
+}
+.NAsilka{
+    display: flex;
+    gap: 150px;
+
+}
+.NAsilka ul li a{
+    text-decoration: none;
+   
+}
+.NAsilka ul li{
+    list-style-type: none;
+    cursor: pointer;
+}
