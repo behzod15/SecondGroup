@@ -4,3 +4,71 @@
     padding: 0;
     font-family: 'Poppins', sans-serif
 }
+.smcont{
+    width: 100%;
+    height: 270vh;
+    background-color: #E5E5E5;
+}
+.smnavbar{
+ width: 100%;
+ height: 10vh;
+ background-color: #E5E5E5;
+ display: flex;
+ align-items: center;
+
+}
+.smnav{
+    width: 70%;
+    margin-left: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.smright ul{
+    list-style: none;
+    display: flex;
+    gap: 36px;
+}
+.smright a{
+    text-decoration: none;
+    color: #4B321D;
+    font-size: 18px;
+    font-weight: 400;
+}
+.smright a:hover{
+    color: white;
+}
+.smtext{
+    width: 90%;
+    margin: 5% auto;
+}
+.smtext h1{
+    font-size: 80px;
+    line-height: 100px;
+    font-weight: 400;
+    color: #4B321D;
+}
+.smimg{
+    width: 100%;
+    margin: 10% 0%;
+}
+.smimg img{
+    width: 100%;
+}
+.smbtn{
+    width: 90%;
+    margin: 5% auto;
+}
+.smbtn button{
+    width: 160px;
+    height: 50px;
+    background: none;
+    border: 2px solid #4B321D;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    cursor: pointer;
+}
+.smbtn button:hover{
+    background-color: #4B321D;
+    color: #E5E5E5;
+}
